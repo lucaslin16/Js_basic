@@ -27,6 +27,9 @@ function square(num){
     return num * num;
 }
 
+function cube(num){
+    return num * num * num;
+}
 greet('lucas', 'lin');
-let num = square(2);
-console.log(num);
+console.log(cube(2));
+console.log(square(2));
